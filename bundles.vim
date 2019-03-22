@@ -46,6 +46,7 @@ Plug 'prettier/vim-prettier', {
     \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'graphql'] }
 Plug 'w0rp/ale'
 Plug 'mhinz/vim-mix-format'
+Plug 'christoomey/vim-tmux-navigator'
 
 "--------------------------
 " tools to explore the file system
@@ -59,6 +60,7 @@ Plug 'mileszs/ack.vim'
 Plug 'epmatsw/ag.vim'
 Plug 'vim-scripts/BufOnly.vim'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'mhinz/vim-mix-format'
 
 "--------------------------
 " filetype syntax highlight
@@ -71,6 +73,11 @@ Plug 'barboza/vim-cucumber-string-highlight'
 " Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'zchee/deoplete-go', { 'do': 'make'}
 Plug 'jparise/vim-graphql'
+Plug 'elixir-editors/vim-elixir'
+Plug 'slashmili/alchemist.vim'
+Plug 'mhinz/vim-mix-format'
+Plug 'mattreduce/vim-mix'
+Plug 'qualiabyte/vim-colorstepper'
 
 "--------------------------
 " color scheme

@@ -386,6 +386,9 @@ let g:vim_markdown_fenced_languages = [
   \ 'rb=ruby',
   \ 'hbs=html']
 
+
+
+let g:mix_format_on_save = 1
 "-------------------------
 " ALE Linting
 let g:ale_sign_column_always = 1
@@ -524,7 +527,8 @@ endif
 " colorscheme
 if !exists("g:gui_oni")
   if has('nvim')
-    color OceanicNext
+    " color OceanicNext
+    color potpourri
   else
     " color onedark
     color OceanicNext
@@ -573,7 +577,7 @@ autocmd BufNewFile,BufRead *.slim,*.haml,*.emblem setlocal list listchars=extend
 " ---------------------------------------------------------------------------
 
 set colorcolumn=80
-" highlight ColorColumn guibg=#1e1e1e
+highlight ColorColumn guibg=#1e1e1e
 highlight clear SignColumn
 
 set fillchars+=vert:│
